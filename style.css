@@ -1,0 +1,35 @@
+#start{
+     background-color: lightblue;
+     text-align: center;
+     margin: auto;
+     width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    margin-top: 150px;
+    
+}
+#que{
+    background-color: burlywood;
+}
+#ge{
+    text-align: center;
+    color: cornsilk;
+    
+}
+#time{
+    font-size: x-large;
+    color: red;
+}
+#submit{
+    background-color: yellow;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+   border: 3px solid black;
+   padding: 5px;
+   margin-bottom: 100px;
+   
+}
+body{
+    background-color:black;
+}

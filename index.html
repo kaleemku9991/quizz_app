@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="html" type="text/html" href="index2.html">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBHmQvaqJMJcVjFFJ70lK3WZVnobuygZdE",
+    authDomain: "quizapp-6fa14.firebaseapp.com",
+    databaseURL: "https://quizapp-6fa14.firebaseio.com",
+    projectId: "quizapp-6fa14",
+    storageBucket: "quizapp-6fa14.appspot.com",
+    messagingSenderId: "194361139911",
+    appId: "1:194361139911:web:998688fd9465c4f32954e2",
+    measurementId: "G-2V1Z5C6BLG"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+
+</head>
+<body>
+
+    <div id="start" class="container">
+        <h2>Name:<input type="text" placeholder="Name" id="name"></h2>
+        <h2>Roll no:<input type="text" placeholder="Roll no" id="roll"></h2>
+        <button onclick="saveData()">Save Data</button>
+        <h1>Start Your quiz </h1>
+        <button onclick="goForward()" href="index2.html">Start</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
